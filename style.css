@@ -1,19 +1,19 @@
-h1{
+  h1{
     color:#ffc062;
-}
-h2{
+    }
+  h2{
     color:#62a1ff;
-}
-body{
+  }
+  body{
     font-family: Arial, sans-serif;
     margin: 0;
     color: #3e363f;
     padding-top: 70px;
-}
-main{
+  }
+  main{
   margin:5px;
-}
-nav{
+  }
+  nav{
     position: fixed;
     top: 0;
     left: 0;
@@ -21,43 +21,42 @@ nav{
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
-.menu-item {
+  .menu-item {
     text-decoration: none;
     color: #333;
     padding: 10px;
     display: inline-block;
-}
-.menu-item:hover {
+  }
+  .menu-item:hover {
     background-color: #ddd;
     transition: all 0.4s ease-in-out;
-}
-header {
+  }
+  header {
     background-color: #f0f0f0;
     color: #fff;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
-}
-#acerca-de-mi {
+  }
+  #acerca-de-mi {
     text-align: justify;
-}
-#habilidades ul {
+  }
+  #habilidades ul {
     list-style: none;
     padding: 0;
-}
-#habilidades ul li {
+  }
+  #habilidades ul li {
     display: inline-block;
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-right: 10px;
-}
-#experiencia ul {
+  }
+  #experiencia ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
   #experiencia ul li {
     margin-bottom: 10px;
   }
@@ -66,7 +65,6 @@ header {
     padding: 0;
     margin: 0;
   }
-  
   #proyectos ul li a {
     text-decoration: none;
     color: #333;
@@ -80,4 +78,28 @@ header {
     display: inline-block;
     margin-top: 10px;
     margin-right: 10px;
+  }
+  #redes-sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #redes-sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    color: #ffc062;
+    text-align: center;
+    padding: 10px;
   }
